@@ -1,9 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import QuestionCard from "../components/QuestionCard";
 
-import timer from "../components/Timer";
 import { useEffect, useState } from "react";
-import Timer from "../components/Timer";
 
 const GamePage = () => {
   let [queSerial, setQueSerial] = useState<any>([]);

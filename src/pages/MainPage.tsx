@@ -2,7 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import "../App.css";
 function MainPage() {
   let location = useLocation();
-  let topScore = location.state.topScore;
+  // let topScore = location.state.topScore;
 
   return (
     <>
