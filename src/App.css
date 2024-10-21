@@ -1,0 +1,276 @@
+.input-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-div {
+  position: relative;
+  background-color: #e3dfd3;
+  width: 400px;
+  height: 600px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px rgba(45, 45, 45, 0.733);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  scale: 100%;
+  transition: 1.5s 0.5s ease all;
+  background-image: url("/assets/wave-haikei.svg");
+  aspect-ratio: 2/3;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ball {
+  background-color: #ff6f61;
+  height: 00px;
+  width: auto;
+  aspect-ratio: 1/1;
+  transition: 1.5s 0.5s ease all;
+  scale: 100%;
+  position: relative;
+}
+.login-heading {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  transition: 0.5s 0.55s ease all;
+  position: relative;
+  bottom: 0px;
+  z-index: 2;
+  text-align: center;
+}
+.input-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 150px;
+  left: 0px;
+  transition: 0.5s ease-in-out all;
+  -moz-transition: 0.5s ease all;
+  -webkit-transition: 0.5 ease all;
+}
+.login-input {
+  height: 40px;
+  width: 270px;
+  position: relative;
+  left: 60px;
+  border-bottom: 1px solid rgb(192, 192, 192);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: #e3dfd300;
+  font-size: 16px;
+}
+.login-input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.label {
+  padding-left: 60px;
+  position: relative;
+  top: 55px;
+  transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
+}
+.login-btn:hover {
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+.login-btn {
+  position: relative;
+  left: 60px;
+  width: 273px;
+  border-radius: 10px;
+}
+.loginPage-body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e3dfd3;
+}
+.body {
+  background-color: #e3dfd3;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.question-body {
+  height: 530px;
+  width: 400px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  background-image: url("/assets/layered-waves-haikei.svg");
+  aspect-ratio: 2/3;
+  background-position: 0 -30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgb(160, 160, 160);
+}
+.question-heading {
+  height: 110px;
+  padding-top: 40px;
+  padding-left: 30px;
+  font-size: 1.3rem;
+  padding-inline: 20px;
+}
+.options-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.option {
+  text-align: left;
+  margin-left: 30px;
+  height: 50px;
+  width: 330px;
+  background-color: #ff6f61;
+  transition: 0.2s ease all;
+  font-size: 1.1rem;
+}
+.next-button {
+  width: 330px;
+  height: 50px;
+  margin-left: 30px;
+  transition: 0.2s ease all;
+  font-size: 1.2rem;
+}
+.next-button:hover {
+  background-color: #000000;
+  color: white;
+  scale: 105%;
+}
+.option:hover {
+  scale: 105%;
+}
+.question-box {
+  display: flex;
+  gap: 30px;
+}
+.layer1 {
+  background-image: url("/assets/layered-peaks-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 16/9;
+  background-position: 0 -40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 50px;
+  padding-top: 10px;
+  align-items: center;
+}
+.body-content-div {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.start-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: 0.5s ease all;
+}
+.start-div > h3 {
+  font-size: 1.5rem;
+}
+.start-btn {
+  transition: 0.1s ease all;
+}
+.start-btn:hover {
+  background-color: black;
+  color: white;
+  scale: 110%;
+}
+.next-btn {
+  font-size: 3.5rem;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff00;
+  position: relative;
+  font-weight: bold;
+  color: #767676;
+  bottom: 25px;
+  margin-left: 20px;
+  transition: 0.1s ease all;
+}
+.next-btn:hover {
+  color: #000000;
+  scale: 120%;
+}
+.current-score {
+  margin-left: 270px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #767676;
+  border-radius: 30px;
+  background-image: url("/assets/layered-waves-haikei\ \(2\).svg");
+  background-position: center;
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 240px;
+  box-shadow: 0px 0px 20px rgb(160, 160, 160);
+  position: relative;
+  margin-bottom: 80px;
+}
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer-div {
+  width: 240px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 230px;
+  /* background-image: url("/assets/blob-haikei.svg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+h1,
+h2,
+h3,
+p:hover {
+  cursor: default;
+}
+.current-score > h2 {
+  padding-left: 5px;
+  padding-top: 40px;
+  font-size: 1.5rem;
+}
+.current-score > p {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.game-div {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

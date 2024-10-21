@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "que": "Which animal is known as the 'Ship of the Desert?",
+    "opt1": "Lion",
+    "opt2": "Cat",
+    "opt3": "Girrafe",
+    "opt4": "Camel",
+    "ans": 4
+  },
+  {
+    "id": 2,
+    "que": "How many days are there in a week?",
+    "opt1": "3 days",
+    "opt2": "6 days",
+    "opt3": "7 days",
+    "opt4": "9 days",
+    "ans": 3
+  },
+  {
+    "id": 3,
+    "que": "How many hours are there in a day?",
+    "opt1": "24 hours",
+    "opt2": "16 hours",
+    "opt3": "32 hours",
+    "opt4": "8 hours",
+    "ans": 1
+  },
+  {
+    "id": 4,
+    "que": " How many letters are there in the English alphabet?",
+    "opt1": "78 letters",
+    "opt2": "9 letters",
+    "opt3": "12 letters",
+    "opt4": "26 letters",
+    "ans": 4
+  },
+  {
+    "id": 5,
+    "que": " Rainbow consist of how many colours?",
+    "opt1": "6 colours",
+    "opt2": "9 colours",
+    "opt3": "2 colours",
+    "opt4": "7 colours",
+    "ans": 4
+  },
+  {
+    "id": 6,
+    "que": "How many days are there in a year?",
+    "opt1": "365 days",
+    "opt2": "890 days",
+    "opt3": "720 days",
+    "opt4": "300 days",
+    "ans": 1
+  },
+  {
+    "id": 7,
+    "que": "Baby frog is known as.......",
+    "opt1": "Kitten",
+    "opt2": "Puppy",
+    "opt3": "Calf",
+    "opt4": "Tadpole",
+    "ans": 4
+  },
+  {
+    "id": 8,
+    "que": "How many vowels are there in the English alphabet and name them?",
+    "opt1": "3 vowels",
+    "opt2": "5 vowels",
+    "opt3": "8 vowels",
+    "opt4": "4 vowels",
+    "ans": 2
+  },
+  {
+    "id": 9,
+    "que": "Name the National bird of India?",
+    "opt1": "Peacock",
+    "opt2": "Chicken",
+    "opt3": "Parrot",
+    "opt4": "Eagle",
+    "ans": 1
+  },
+  {
+    "id": 10,
+    "que": "Name the National animal of India?",
+    "opt1": "Cat",
+    "opt2": "Tiger",
+    "opt3": "Leopard",
+    "opt4": "Cow",
+    "ans": 2
+  }
+]
+
